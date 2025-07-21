@@ -3,19 +3,21 @@
     height: 100vh;
 }
 
-.contenedorIzquierdo , .contenedorDerecho {
+.contenedorIzquierda , .contenedorDerecho {
+    /* flex: 1; */
     flex: 1 1 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
-.contenedorIzquierdo{
+/* .contenedorIzquierda{
     background: rgb(17, 77, 77);
-}
+} */
 
 .contenedorDerecho{
-    background: yellow;
+    background: rgb(123, 71, 6);
 }
 .informacionIzquierda{
     /* margin-top: 15rem; */
@@ -26,28 +28,32 @@
     max-width: 70%;
     word-wrap: break-word;
     text-align: center;
-    /* margin-left: 10rem; */
-    /* margin-right: 5rem; */
-
 }
 
 /* Carrusel */
 
 .carrusel-container{
-    position: relative;
-    width: 50%;
-    max-width: 300px;
+    /* height: 100vh; */
+    /* width: 150%; */
     margin: auto;
 }
 
+.carrusel-Image{
+    width: 129%;   
+    height: auto;       /* Mantiene la proporción */
+    /* object-fit: contain; Hace que no se deforme ni desborde */
+    /* max-width: 100%;    Que no crezca más que el contenedor */
+    /* max-height: 100vh;  Limita el alto máximo al tamaño de la pantalla */
+}
+
 .carrusel-img{
-    width: 100%;
-    border-radius: 10px;
+    width: 50%;
+    /* border-radius: 10px; */
 }
 
 .carrusel-controler{
     position: absolute;
-    width: 100%;
+    width: 45%;
     top: 50%;
     display: flex;
     justify-content: space-between;
@@ -66,7 +72,7 @@
 }
 
 .carrusel-controler button:hover{
-    background: rgba(85, 107, 47, 0.8);
+    background: rgba(201, 126, 14, 0.8);
 }
 
 
@@ -84,126 +90,3 @@
         max-width: 90%;
     }
 }
-
-/* // Css de las imagenes que se mueven */
-
-/* .line{
-    height: 5px;
-    background: greenyellow;
-    border: none;
-    width: 900px;
-} */
-
-.container{
-    width: 100%;
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 4rem;
-}
-
-.container .card{
-    position: relative;
-    cursor: pointer;
-}
-
-.container  .card .face {
-    width: 300px;
-    height: 200px;
-    transition: 0.5s;
-}
-
-.container  .card .face.face1 {
-    position: relative;
-    background: rgb(13, 97, 13);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-    transform: translateY(100px);
-}
-
-.container  .card:hover .face.face1 {
-    background: rgb(255, 153, 0);
-    transform: translateY(0);
-}
-
-.container  .card .face.face1 .content{
-    transition: 0.5s;
-}
-
-.contenido2{
-    margin-top: 4rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 4rem;
-}
-
-
-.redondo{
-    height: 280px;
-    border-radius: 50%;
-    margin-left: 3rem;
-}
-
-
-.line1{
-    height: 5px;
-    background: #f9b208;
-    border: none;
-    width: 900px;
-}
-
-.titulo2{
-    text-align: center;
-    font-weight: bold;
-    margin-top: 3rem; 
-}
-
-.img{
-    font-size: 100px;
-    margin-left: -70px;
-    color: rgb(255, 153, 0) ;
-}
-
-.img:hover{
-    color: rgb(13, 97, 13) ;
-}
-
-h3{
-    font-size: 20px;
-    color: whitesmoke;
-}
-
-p{
-    text-align: center;
-}
-
-.container .card .face.face1 .content{
-    margin: 0 0 0;
-    padding: 0;
-    text-align: center;
-    font-size: 1.5em;
-}
-
-.container .card .face.face2 {
-    position: relative;
-    background: aliceblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    box-sizing: border-box;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
-    transform: translateY(-100px);
-}
-
-.container .card:hover .face.face2{
-    transform: translateY(0);
-}
-
-.container .card .face.face2 .content p{
-    margin: 0;
-    padding: 0;
-} 

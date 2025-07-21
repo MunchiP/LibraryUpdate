@@ -13,9 +13,9 @@ import { MatIconModule } from '@angular/material/icon';
 export class InicioComponent {
 
   imagenes = [
-    '<img src="https://raw.githubusercontent.com/MunchiP/ImagenesBiblio/3c351f45d00f4b1fe7f3a5cdec12bee621bdbfd4/WhatsApp%20Image%202023-01-21%20at%202.57.24%20PM.jpeg',
-    'https://raw.githubusercontent.com/MunchiP/ImagenesBiblio/3c351f45d00f4b1fe7f3a5cdec12bee621bdbfd4/WhatsApp%20Image%202023-01-21%20at%202.57.26%20PM.jpeg',
-    'https://raw.githubusercontent.com/MunchiP/ImagenesBiblio/3c351f45d00f4b1fe7f3a5cdec12bee621bdbfd4/WhatsApp%20Image%202023-01-21%20at%203.00.39%20PM.jpeg'
+    'https://raw.githubusercontent.com/MunchiP/ImagenesBiblio/refs/heads/main/Sala_A.jpg',
+    'https://raw.githubusercontent.com/MunchiP/ImagenesBiblio/refs/heads/main/Sala_B.jpg',
+    'https://raw.githubusercontent.com/MunchiP/ImagenesBiblio/refs/heads/main/Sala_Infantil.jpg'
   ];
 
   imagenActual = 0;
