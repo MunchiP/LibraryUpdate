@@ -1,0 +1,26 @@
+.menuclass1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(13, 97, 13);
+}
+
+.opcionesMenu1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opcionesMenu1 a {
+    color: aliceblue;
+}
+
+a{
+    font-size: 20px;
+    margin-left: 1rem;
+}
+
+a:hover {
+    color: rgb(255, 153, 0);
+}
+
