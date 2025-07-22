@@ -1,18 +1,3 @@
 {
-  "routes": {
-    "/": {},
-    "/Catalogo": {},
-    "/QuienesSomos": {},
-    "/QuienesSomos/Contacto": {},
-    "/QuienesSomos/Historia": {},
-    "/QuienesSomos/Informacion": {},
-    "/QuienesSomos/RedesSociales": {},
-    "/Redes": {},
-    "/Servicio": {},
-    "/Servicio/AulaVirtual": {},
-    "/Servicio/BiblioMovil": {},
-    "/Servicio/Conferencias": {},
-    "/Servicio/HakunaMatata": {},
-    "/Servicio/SordoCiegos": {}
-  }
+  "routes": {}
 }
