@@ -11,12 +11,9 @@
     margin-top: 7%;
 }
 
-
 .container{
     justify-content: center;
 }
-
-
 
 .line1{
     height: 5px;
@@ -24,8 +21,6 @@
     border: none;
     width: 900px;
 }
-
-
 
 .contenedor{
     justify-content: center;
@@ -37,8 +32,8 @@
 .content{
     height: 150px;
     width: 400px;
-    background: aliceblue;
-    color: rgb(13, 97, 13);
+    background: rgb(13, 97, 13);
+    color: aliceblue;
     display: flex;
     flex-wrap: wrap;
     margin-top: 2rem;
@@ -49,7 +44,12 @@
 }
 
 .content:hover{
-    box-shadow: 6px 6px 10px;
+    box-shadow: purple 6px 6px 10px;
+}
+
+button{
+    background: none;
+    border: none;
 }
 
 .emoji{
@@ -59,11 +59,8 @@
     text-align: center;
     margin-right: 2rem;
     margin-left: 2rem;
-    color: black;
+    color: #f9b208;
 }
-
-
-
 
 p{
     margin-top: 60px;

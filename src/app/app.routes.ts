@@ -39,10 +39,10 @@ export const routes: Routes = [
 
   // 4 Redes Links
 
-//   {path: 'Redes' , component: Redes },
-//   {path: 'Redes/BiblioEscoalres' , component: EscolaresComponent },
-//   {path: 'Redes/BiblioComunitarias' , component: ComunitariasComponent },
-//   {path: 'Redes/Organizaciones' , component: OrganizacionesComponent },
+  {path: 'Redes' , component: RedesSocialesComponent },
+  // {path: 'Redes/BiblioEscoalres' , component: EscolaresComponent },
+  // {path: 'Redes/BiblioComunitarias' , component: ComunitariasComponent },
+  // {path: 'Redes/Organizaciones' , component: OrganizacionesComponent },
 
   // 5 Quienes Somos Links
 
